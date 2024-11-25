@@ -123,11 +123,9 @@
     text-decoration: underline;
   }
   @media(max-width:960px){
-    h1{
-      font-size:72px ;
-    }
-    h2{
-      font-size: 36px;
+   
+    h1, h2{
+      font-size: 44px;
     }
     .project-description{
       text-align: center;
