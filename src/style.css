@@ -10,8 +10,9 @@
     margin-top: 100px;
     font-family: var(--default-font-family);
   }
-  header{
+  .hero{
     background-color: var(--secondary-color);
+    font-family: var(--heading-font-family);
     padding: 15px 30px;
     margin-top: 0;
   }
@@ -120,9 +121,7 @@
     font-weight: bold;
     line-height: 30px;
   }
-  .hero{
-    font-family: var(--heading-font-family);
-  }
+
   .project-description{
     padding: 120px 60px;
   }
