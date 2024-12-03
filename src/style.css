@@ -10,12 +10,7 @@
     margin-top: 100px;
     font-family: var(--default-font-family);
   }
-  .hero{
-    background-color: var(--secondary-color);
-    font-family: var(--heading-font-family);
-    padding: 15px 30px;
-    margin-top: 0;
-  }
+
   
   h1,
   h2,
@@ -43,6 +38,74 @@
   img{
     aspect-ratio: 1/1;
   }
+
+  footer{
+    margin: 60px 0;
+  }
+
+  footer .contact-box{
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 5px;
+  }
+  footer .contact-box p{
+    margin: 0;
+  }
+
+  footer .email-link{
+      color: #000;
+      font-size: 28px;
+      text-decoration: none;
+      transition: all 100ms ease-in-out;
+  }
+
+  footer .email-link:hover{
+    color: var(--primary-color)
+  }
+
+  
+  footer .social-links a {
+    font-size: 24px;
+    margin: 0px 15px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    padding: 10px 14px;
+
+  }
+  footer .social-links a:hover{
+    color: #fff;
+    background-color: var(--primary-color);
+  }
+
+
+
+  .navbar-brand{
+    font-size: 30px;
+  }
+  .nav-link{
+    font-size: 24px;
+  }
+  
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .navigation-links a {
+    margin: 20px;
+  }
+  .active{
+    color: var(--primary-color) !important;
+  }
+
+  .hero{
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font-family);
+    padding: 160px 20px;
+    margin-top: 0;
+  }
   .headshot{
     width:100%;
     height:80%;
@@ -68,33 +131,22 @@
     font-size: 18px;
     line-height: 30px;
   }
-
-  .navbar-brand{
-    font-size: 30px;
-  }
-  .nav-link{
-    font-size: 24px;
-  }
-  
-  .navigation-links {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-  }
-  
-  .navigation-links a {
-    margin: 20px;
-  }
   
   .primary-link {
     border-radius: 4px;
     font-size: 18px;
+    font-family: var(--heading-font-family);
     padding: 15px 30px;
     text-decoration: none;
     text-transform: capitalize;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
-    color: white;
+    color: #fff;
+  }
+  .primary-link:hover{
+    color: #fff;
+    font-weight: 500;
+   
   }
   
   .secondary-link {
@@ -110,50 +162,30 @@
     color:var(--secondary-color);
     background-color: var(--primary-color);
   }
-  
-  .homepage-link {
-    color: var(--primary-color);
-    text-align: center;
-    display: block;
-  }
+
   .welcome{
     font-size: 36px;
     font-weight: bold;
     line-height: 30px;
+    padding-top: 30px;
   }
 
   .project-description{
     padding: 120px 60px;
   }
   
-  .about-paragraphs {
-    margin: 30px 0;
-  }
-  
-  .about-paragraphs p {
-    margin: 10px;
-  }
-
-  
-  .email-link {
-    display: flex;
-    justify-content: center;
-    color: var(--primary-color);
-    font-size: 28px;
-    text-decoration: none;
-  }
-  
-  .email-link:hover {
-    text-decoration: underline;
-  }
   @media(max-width:960px){
    
     h1, h2{
       font-size: 44px;
     }
+    .hero{
+      padding: 80px 20px;
+    }
     .project-description{
       text-align: center;
       padding: 0px;
     }
+   
   }
   
