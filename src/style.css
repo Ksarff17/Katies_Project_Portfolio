@@ -212,4 +212,14 @@
     }
    
   }
+  @media(max-width: 576px){
+    body{
+      margin: 10px auto;
+    }
+    .content-container {
+    padding: 80px 10px;
+}
+  
+  
+  }
   
