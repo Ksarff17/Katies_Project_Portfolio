@@ -218,7 +218,11 @@
     }
     .content-container {
     padding: 80px 10px;
-}
+    }
+    .footer{
+      margin: 10px auto;
+    }
+
   
   
   }
